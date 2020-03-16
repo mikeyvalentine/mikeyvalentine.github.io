@@ -1,0 +1,93 @@
+* { padding: 0; margin: 0}
+@font-face { font-family: coolvetica; src: url('coolvetica.ttf');}
+body{
+    background-color: white;
+    height: 2000px;
+}
+header div{
+    position:fixed;
+    top:0;
+    width: 50%;
+    left:0;
+    right:0;
+    margin: auto;
+    height: 40%;
+    z-index: 1;
+}
+.titlelogo{
+    position: absolute;
+    top:-40%;
+    width: 50%;
+    left:0;
+    right:0;
+    margin:auto;
+    display: block;
+    z-index: 1;
+    
+}
+.linksdivleft{
+    top:0;
+    margin-left: 25%;
+    width: 25%;
+    height: 20%;
+}
+.linksdivright{
+    top:0;
+    margin-right: 25%;
+    width: 25%;
+    height: 20%;
+}
+.linkleft{
+    position: relative;
+    top:10px;
+    text-align: left;
+}
+.linkright{
+    position: relative;
+    top:10px;
+    text-align: right;
+}
+header a{
+    color: orangered;
+}
+header a:visited{
+    text-decoration: none;
+    color: orangered;
+}
+header a:hover{
+    border-bottom: 2px solid red;
+}
+<--!.titleblock{
+    position:fixed;
+    width: 17%;
+    top:1%;
+    left:0;
+    right:0;
+    margin:auto;
+    height: 5%;
+    background-color: yellow;
+    border-radius: 10px;
+    z-index: 1;
+}
+header div h1{
+    position:relative;
+    text-align: center;
+    font-size: 180%;
+    font-family: coolvetica, sans-serif;
+    letter-spacing: .05em;
+}-->
+.headz{
+    top:0;
+    position:relative;
+    height:1px;
+    background-color: white;
+    margin-bottom: 130px;
+}
+.mainz {
+    left:0;
+    right:0;
+    width:50%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 100px;
+}
